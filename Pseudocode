@@ -1,0 +1,36 @@
+Pseudocode for Face Mask Detection 
+
+1. Initialize the MobileNet V2 model 
+2. Read the input Frame 
+3. While true
+4. Initialize the L(r), B(s), E (p) 
+5. Resize the I(x), height, and the width
+6. Load the base Model 
+7. F (m) ← {Minimum Cl +Maximum I(c)}
+8. End for 
+9. Calculate the blob
+10.For each Co, lens, S (b) do 
+11.If lens > 0 
+12. Width(W) = Xmin*Xmax 
+13. Height(H) = Ymin*Ymax 
+14.else 15.Resize the box with possible dimension 
+16.else if 
+17.else for 
+18.Initialize the all objects 
+19.X = cen [x] – w ÷2 
+
+
+20.Y = cen[y] – h ÷2 
+21.Assign x, y, w, h, Co, lens values
+ 22.for i in indexes :
+23. 		for each i the truth box having class label class [1] do 
+24. 			Class_id = max(scores) 
+25. 			if confidence > 0 
+26.		            Confidences.append(float(confidence)) 
+27.			 end if 
+28.		 end for 
+29.end for 
+30.for I in class_ids :
+31. 		return label, confidence 
+32.end for 
+33.end for
