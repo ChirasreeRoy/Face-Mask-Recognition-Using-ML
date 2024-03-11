@@ -1,0 +1,30 @@
+Evaluation Metrics
+
+Accuracy
+
+Accuracy is a measure of total correctly identified samples out of all the samples.
+
+It is defined as: 
+
+Accuracy = TP+TN/TP+FP+FN+TN
+
+Where, 
+
+     True positive (TP) = correctly identified 
+     False positive (FP) = incorrectly identified 
+     True negative (TN) = correctly rejected 
+     False negative (FN) = incorrectly rejected
+
+Precision: 
+Precision means to determine the number of positive class predictions that actually belong to the positive class. 
+                                   Precision = TP/TP+FP 
+
+Recall:
+Recall means to determine the number of positive class predictions made out of all positive samples in the dataset. 
+                                      Recall = TP/TP+FN
+
+F1-Score F1- 
+Score is the average mean of Precision and Recall.
+
+                       F1 Score = 2*(Recall * Precision) / (Recall + Precision) 
+
